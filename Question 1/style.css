@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: teal;
+    padding-bottom:10px;
+}
+
+.profile-picture {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.contact-info {
+    font-size: 16px;
+    color: white;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: teal;
+    margin-bottom: 15px;
+}
+
+.summary-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.education-item,
+.experience-item,
+.project-item {
+    margin-bottom: 20px;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item-details {
+    font-size: 16px;
+    color: #555;
+}
+
+.responsibilities {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background-color: teal;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
